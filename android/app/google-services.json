@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "835738764351",
+    "firebase_url": "https://log-in-prffrota.firebaseio.com",
+    "project_id": "log-in-prffrota",
+    "storage_bucket": "log-in-prffrota.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835738764351:android:01d76aad98091f75ad648a",
+        "android_client_info": {
+          "package_name": "com.teste.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835738764351-o87dht9a1sir473e1gmphk91ve025kdv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSrWwvHbG8GsC_gBsRL-ZafceFJZ9NNrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835738764351-o87dht9a1sir473e1gmphk91ve025kdv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "835738764351-90sqlej2e8hafpjp4ui5nj7f4kjgdroc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.teste.login"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
