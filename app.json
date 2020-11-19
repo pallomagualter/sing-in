@@ -1,0 +1,12 @@
+{
+  "name": "sing-in",
+  "displayName": "sing-in",
+  "expo": {
+    "name": "sing-in",
+    "slug": "expo-template-bare",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
