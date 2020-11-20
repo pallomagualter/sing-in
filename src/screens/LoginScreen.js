@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-class LoadingScreen extends Component {
+class LoginScreen extends Component {
     render() {
         return (
             <View style={styles.container}>
-              <Text>LoadingScreen</Text>   
+              <Text>LoginScreen</Text>   
             </View>
         )
     }
 }
 
-export default LoadingScreen;
+export default LoginScreen;
 
 const styles = StyleSheet.create({
   container: {
