@@ -6,6 +6,9 @@ import LoadingScreen from './src/screens/LoadingScreen';
 import LoginScreen from './src/screens/LoginScreen';
 import DashboardScreen from './src/screens/DashboardScreen';
 
+import * as firebase from 'firebase';
+import { firebaseConfig } from './src/config';
+
 export default function App() {
   return (
     <View style={styles.container}>
