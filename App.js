@@ -11,7 +11,7 @@ export default function App() {
 }
 
 const AppSwitchNavigator = createSwitchNavigator({
-  LoadingScreen: LoginScreen,
+  LoadingScreen: LoadingScreen,
   LoginScreen: LoginScreen,
   DashboardScreen: DashboardScreen
 })
