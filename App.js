@@ -5,7 +5,7 @@ import { createSwitchNavigator } from 'react-navigation';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>NOW YOU SEE ME!</Text>
+      <Text>ARE YOU SEE ME?</Text>
     </View>
   );
 }
