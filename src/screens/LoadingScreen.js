@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 import firebase from 'firebase';
 
 class LoadingScreen extends Component {
@@ -15,9 +15,9 @@ class LoadingScreen extends Component {
   }
 
     render() {
-        return (
+        return ( 
             <View style={styles.container}>
-              <Text>LoadingScreen</Text>   
+              <ActivityIndicator size="large"/>
             </View>
         )
     }
