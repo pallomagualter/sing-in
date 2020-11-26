@@ -3,6 +3,10 @@ import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 import firebase from 'firebase';
 
 class LoadingScreen extends Component {
+  componentDidMount() {
+    this.checkIfLoggedIn();
+  }
+
   checkIfLoggedIn = () => {
     firebase.auth().onAuthStateChanged(function(user)
     {
