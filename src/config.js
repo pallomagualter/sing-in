@@ -1,6 +1,6 @@
 import firebase from 'firebase';
 
-const firebaseConfig = {
+export const firebaseConfig = {
     apiKey: "AIzaSyANfglBC8rt_sYCgJ0H18QyTRex_QK--1M",
     authDomain: "log-in-prffrota.firebaseapp.com",
     databaseURL: "https://log-in-prffrota.firebaseio.com",
