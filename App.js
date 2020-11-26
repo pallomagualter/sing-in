@@ -12,9 +12,7 @@ firebase.initializeApp(firebaseConfig);
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>ARE YOU SEE ME?</Text>
-    </View>
+    <AppNavigator />
   );
 }
 
@@ -22,7 +20,9 @@ const AppSwitchNavigator = createSwitchNavigator({
   LoadingScreen: LoadingScreen,
   LoginScreen: LoginScreen,
   DashboardScreen: DashboardScreen
-})
+});
+
+const AppNavigator = createAppContainer(AppSwitchNavigator);
 
 const styles = StyleSheet.create({
   container: {
