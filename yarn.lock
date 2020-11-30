@@ -7329,6 +7329,13 @@ react-native@~0.63.3:
     use-subscription "^1.0.0"
     whatwg-fetch "^3.0.0"
 
+react-navigate@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/react-navigate/-/react-navigate-0.6.0.tgz#ab4ae928b2b6d6204cb8c19d23a15e8eef644882"
+  integrity sha512-v2aj3+QRXsKTBaR1sAYIJk809OiFKB2Udbd7rn0wv7mro3OTt65Yjm9ZcyBH0zZpzAgMbhFNo5DaPXot7snW/A==
+  dependencies:
+    throttleit "1.0.0"
+
 react-navigation@^4.4.3:
   version "4.4.3"
   resolved "https://registry.yarnpkg.com/react-navigation/-/react-navigation-4.4.3.tgz#41a83583e7ee07c9c9e0fb8ee0508261f239086c"
@@ -8247,6 +8254,11 @@ throat@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/throat/-/throat-5.0.0.tgz#c5199235803aad18754a667d659b5e72ce16764b"
   integrity sha512-fcwX4mndzpLQKBS1DVYhGAcYaYt7vsHNIvQV+WXMvnow5cgjPphq5CaayLaGsjRdSCKZFNGt7/GYAuXaNOiYCA==
+
+throttleit@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/throttleit/-/throttleit-1.0.0.tgz#9e785836daf46743145a5984b6268d828528ac6c"
+  integrity sha1-nnhYNtr0Z0MUWlmEtiaNgoUorGw=
 
 through2@^2.0.0, through2@^2.0.1:
   version "2.0.5"
